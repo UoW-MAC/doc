@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="WORK" directorySegmentName="seg_0" id="7428C076-652D-DFC9-E792-887F84C83955">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DUTIES" id="3573187D-C7D7-7D13-A205-69B4F4670696">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="463DA42A-218A-8911-6BB5-B1633E801960">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATES" id="4C8ECE65-B60F-8949-5A97-C41995174DB2">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WORK_ID" id="56A99353-7A87-B141-6B67-A7DD289598D5">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY" id="CF2146BF-0DCE-7D93-62DA-ED7B12D93321">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STUDENT_STUDENT_ID" id="DC72A649-CE34-565C-5ACE-C0B7E3191D6C">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STUDENT_ID" id="E15BA561-9E16-2A52-ADA9-7CA709A9BA26">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="WORK_STUDENT_FK" id="5156B4E9-EDA6-D82C-D83C-E2FD1D8179D1">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WORK_PK" id="BDE0A840-A59B-2E50-12AE-5DEB91231214">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

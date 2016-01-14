@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMPANY" directorySegmentName="seg_0" id="384BBEF6-6516-C1C9-88C0-77CC080FA30D">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CONTACTOR_POSITION" id="38F92AB8-6AFD-86E2-676E-CAD457295BB7">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTACTOR_FIRST_NAME" id="3D1AEB94-B4BB-56CC-679F-4BADE40E2551">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="3EEE91E0-D728-183D-89A5-1D93C09EB1B4">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY_ID" id="415FC9EB-CD29-2611-2D7E-6B402E2F8F0D">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEBSITE" id="64CFDB97-08F5-591F-A2C5-DB4DBD270A5D">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="6A96BEA4-83DB-59DA-553B-38ECF1267161">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMIAL" id="7889A7AB-4D38-14EB-9924-5ABEC3FBFA97">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTACTOR_LAST_TIME" id="7DE5B3D6-32FA-1F58-BDBA-B7A33792AF07">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYER_EMPLOYER_ID" id="8C79A986-1591-68DF-1877-251191DB9723">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POST_CODE" id="95B36747-8C2A-86E1-2A50-E29566F4624B">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTES" id="96EBAC38-3815-DFF1-1909-3768AF6E8BCE">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYER_ID" id="A5AC7CAB-5798-426C-40EA-1863CC97FB4A">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="E709E420-E8BD-F1E4-FC79-4F87CAA79AB3">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEPHONE" id="E7651A78-35DE-4580-9962-42C0D0D4C063">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COUNTRY" id="F22D890D-FC37-1BD5-0104-4E80F46948FC">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMPANY_EMPLOYER_FK" id="80642E59-0362-BDB6-C8BA-2C04B389862D">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMPANY_PK" id="A73AF4A7-A93B-483B-92C5-AA0B19C093F7">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:29 UTC</createdTime>
+<ownerDesignName>dbdesign</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED624356-7726-05B8-302F-24DCD7D24339" name="EDUCATION">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>DBE3A8BB-6F67-21C4-D4FD-0670D5322D67</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EDUCATION ID" id="1762BB2D-ED21-9EE1-424F-2F1B9780FAB5">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>62C87FDC-5166-6992-D199-81BBC42E6EC8</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEGREE" id="39A3B054-9EDC-9105-FC8A-DBE7B415E654">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>6C89AB7A-FE75-2A8F-18AA-3EDD97DA4D44</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAJOR" id="77FB397D-A073-BDEC-7530-3FC359DD72A5">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>C96E974D-A8BC-1A19-67BB-394B979EAD19</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GPA" id="8BED1BD6-D019-1B2C-D99A-5C8FE59442E8">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>6DAFAEB2-157C-0D47-E8CF-CD6FBA1590BD</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSTITUATION" id="36416FF9-1326-6C79-186A-7A4969EE3D8D">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>DF6D623E-A76D-2450-9461-206B935B6A7E</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COUNTRY" id="37F2F0B0-025C-61C4-10D2-58ABA93129DD">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>CF7573D2-CD40-C44D-D7DD-DEC408D81130</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE" id="AF930813-B0B9-3465-9219-277B69730F64">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>4E1DF3E7-23C9-B3EB-9110-EC6B5FB51116</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STUDENT ID" id="E7F77288-3CA0-8F62-CCDC-18AF9DE4863A">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>804704D0-9661-42C8-F5A9-A0147CDD9A2E</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STUDENT STUDENT ID" id="61982391-5B72-698E-58BE-B520ED9C0DE7">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>E6743878-3915-B25F-83CC-361D20D60C09</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<referedAttribute>CD2C5486-4D17-F400-54F4-0ED5824268FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4C53688-FCDA-FFBC-86ED-36302507625C" name="EDUCATION PK">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>02CA98D5-12FA-78A7-F2BD-D99EF704122C</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1762BB2D-ED21-9EE1-424F-2F1B9780FAB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

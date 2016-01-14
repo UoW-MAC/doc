@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A738252-F817-07E6-FAAC-61040E6178E7" name="STUDENT">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>3AE7840F-58FE-60FD-B168-EB339D381362</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STUDENT ID" id="CD2C5486-4D17-F400-54F4-0ED5824268FD">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>C04B977A-182D-2EF3-92E2-439011F7C302</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST TIME" id="BD56E76B-C03D-A67F-1FC6-B0CFFE7BFFD1">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>52848087-3986-BBD7-1928-0B85AE831C07</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIDDLE NAME" id="993F38B6-1FF0-3989-92A3-CBD662AE20F2">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>5686AC83-648D-80F6-7D53-F6BEDC0EF762</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="55FA2D8D-F5A7-4038-917F-E868DE45B696">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>C1D216A8-2B73-A3C5-EF45-F06AB9A51396</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="0BDCFDF3-1CDD-EC18-235F-DA82C486C298">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>42E88052-328C-7552-5FCF-4ACDCC033E58</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEPHONE" id="78ABF628-9DB2-E499-B0C9-D01E49818434">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>1CEE5B58-1285-D52E-1FF2-9E61403A2919</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS" id="F003A056-7A75-8DB1-7E06-4F0F726C70CB">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>5508B511-5CE1-A3B3-394D-C0F3BA750446</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENDER" id="1FB7E7B1-8632-6835-D397-2D78F06FBB07">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>7D03E070-02A9-5850-676A-487AB76FFDEF</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEMESTER REGESTED" id="2A0BD169-0690-112D-488D-16E5971E938C">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>1F87E729-D2CB-1570-1A0D-1EE7EF8F115B</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGISTERED YEAR" id="E54BB0A4-A086-F7AE-D692-35FAF7F9C731">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>950BF2F8-6DB4-C26C-E547-5E3D18AAA4DD</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPANY ID" id="9FF38C9C-AF6D-8FB8-EAB6-BA67742C02A3">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>92F35C0B-C663-0B82-619A-87005F5DDE85</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPANY COMPANY ID" id="FB755018-0225-C25D-9A1F-1132A36E29A0">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>84B452E8-D1F4-80EC-8716-EB992E34D1C5</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<referedAttribute>A0416B1F-4A38-076A-F887-265389BE7E14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSITION ID" id="71C3DDE5-964D-B4FD-0B73-485957213199">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>AF038423-84CD-C666-FE63-7DADFEEE7BF3</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSITION POSITION ID" id="C7ACBB6B-5B65-7423-D938-1485B23E52E2">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>083E3506-DD37-7170-B512-C6B19F29C994</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<referedAttribute>C8CD2DBC-AFAF-75C4-09D3-1D391A36C89B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="899EBC4E-8487-65FF-2391-61232AB81819" name="STUDENT PK">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>58E4BC33-DD8D-71D5-421C-664A6F972458</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD2C5486-4D17-F400-54F4-0ED5824268FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

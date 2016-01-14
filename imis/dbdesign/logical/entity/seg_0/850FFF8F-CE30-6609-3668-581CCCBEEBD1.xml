@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="850FFF8F-CE30-6609-3668-581CCCBEEBD1" name="EMPLOYER">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>E39836E1-724E-F042-E0F9-DA04D58FBBED</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPLOYER ID" id="34FBF15F-FEC2-ABFB-1107-2651B8DEBE82">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>3162EF9C-7DE1-E7B8-2FFD-58114C339145</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TYPE" id="0AF9C62A-6E77-D209-E1E2-2F74E8E65E92">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>E21E728B-1F5D-F26B-4D3B-5DC6C893059B</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D74794B-B53C-7BBE-6C07-902E6B77672E" name="EMPLOYER PK">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-14 04:07:14 UTC</createdTime>
+<generatorID>7E25CA7D-0663-98F5-834D-5EE861E710DE</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<engineerTo>
+<item key="908EAEDD-727E-694B-E200-860034DD0DDB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34FBF15F-FEC2-ABFB-1107-2651B8DEBE82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

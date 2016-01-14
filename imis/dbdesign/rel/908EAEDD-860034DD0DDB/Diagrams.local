@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="DA69BE62-42E6-36D8-A621-49E687B2B9FE" name="Relational_IMIS" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

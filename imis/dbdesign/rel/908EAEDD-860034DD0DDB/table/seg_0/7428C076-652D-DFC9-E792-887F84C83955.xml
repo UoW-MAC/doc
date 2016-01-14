@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7428C076-652D-DFC9-E792-887F84C83955" name="WORK">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>A2E83790-9C84-4B75-1467-2184316F82AF</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WORK_ID" id="56A99353-7A87-B141-6B67-A7DD289598D5">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>2E891C63-A730-957A-FEF5-D89AC410398E</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="CF2146BF-0DCE-7D93-62DA-ED7B12D93321">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>96EF1413-0F06-226E-4B94-11AF20E33625</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATES" id="4C8ECE65-B60F-8949-5A97-C41995174DB2">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>23854E90-CC5E-D715-286C-322E2BBEEB76</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="463DA42A-218A-8911-6BB5-B1633E801960">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>39F79A88-8135-CDD5-6985-5C967627C5DD</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DUTIES" id="3573187D-C7D7-7D13-A205-69B4F4670696">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>8C2D24D9-331F-A75C-03ED-FF664D3C356F</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_ID" id="E15BA561-9E16-2A52-ADA9-7CA709A9BA26">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>947E390C-F325-2A12-D43B-35604B64DE6C</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_STUDENT_ID" id="DC72A649-CE34-565C-5ACE-C0B7E3191D6C">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>58A3D77F-AC23-EC62-DC5C-1B3D74E9739B</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E460FFF8-CC83-E1E3-FF06-318606661629" referredColumn="C04B977A-182D-2EF3-92E2-439011F7C302"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDE0A840-A59B-2E50-12AE-5DEB91231214" name="WORK_PK">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>DC181057-09A1-F14D-C570-D2EC5F85775F</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56A99353-7A87-B141-6B67-A7DD289598D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5156B4E9-EDA6-D82C-D83C-E2FD1D8179D1" name="WORK_STUDENT_FK">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 21:00:01 UTC</createdTime>
+<generatorID>4A00B60C-69DA-08E7-F350-87FBE9C3DAE0</generatorID>
+<ownerDesignName>dbdesign</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC72A649-CE34-565C-5ACE-C0B7E3191D6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

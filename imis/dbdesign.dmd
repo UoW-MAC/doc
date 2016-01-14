@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="dbdesign" id="0E986A31-0D57-C86B-A7E0-07564A0F43D3" version="3.5">
+<createdBy>williamzhang</createdBy>
+<createdTime>2016-01-13 02:11:08 UTC</createdTime>
+<ownerDesignName>Data Design</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0E986A31-0D57-C86B-A7E0-07564A0F43D3</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2A6A7C1E-F2CF-BF9B-39C2-168B72AAE475">
+<designStoragePath>/Users/williamzhang/Documents/UoW/Courses/Advanced Database Topics(201601-2016-04)/imis</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
