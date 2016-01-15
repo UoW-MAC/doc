@@ -126,7 +126,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SEMESTER REGESTED" id="2A0BD169-0690-112D-488D-16E5971E938C">
+<Attribute name="SEMESTER REGISTERED" id="2A0BD169-0690-112D-488D-16E5971E938C">
 <createdBy>williamzhang</createdBy>
 <createdTime>2016-01-14 04:07:14 UTC</createdTime>
 <generatorID>1F87E729-D2CB-1570-1A0D-1EE7EF8F115B</generatorID>

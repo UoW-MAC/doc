@@ -102,7 +102,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SEMESTER_REGESTED" id="1F87E729-D2CB-1570-1A0D-1EE7EF8F115B">
+<Column name="SEMESTER_REGISTERED" id="1F87E729-D2CB-1570-1A0D-1EE7EF8F115B">
 <createdBy>williamzhang</createdBy>
 <createdTime>2016-01-13 21:00:01 UTC</createdTime>
 <generatorID>0E55AF09-652D-C9EE-5651-431E9BF32AA2</generatorID>
