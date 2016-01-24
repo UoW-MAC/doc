@@ -1,0 +1,26 @@
+Student
+1.注册（sign in/sign up/ system title）username, pwd, Email 注册成功
+2.进入（optional 发邮件绑定邮件）
+界面：完善个人信息 （personal Info， education， work experience）
+Submit （提示界面：您现在要申请）
+3.职位列表页面：包含search: 告诉用户搜索关键字：按什么搜索company info， job title  , work address,
+4. Choice one : company info, button（apply）
+状态地铁图（mature map）申请状态：看申请的职位 in progress（accept/reject）
+Waiting :Success or Fail(reason)
+
+company：
+1.登录界面 register （username pwd email）sign in
+完善公司信息 basic info
+Submit（您现在要po 职位吗）
+Menu：（div）<1>您收到的请求、
+左右两部分Search（optional）
+<1> position & student info（有状态栏） button (accept 返回请求列表 这个人加一个状态, reject: 您确定要reject? Sure 请求列表 这个人后加一个状态)
+
+Admin：
+登录：
+列表（reports）：
+所有企业的信息， 所有学生信息
+SEARCH 定好关键字 print 
+ Company：insert , up data ,select info,  delet position.
+Student: insert, up data ,select
+Admin: insert , del, select, up data
